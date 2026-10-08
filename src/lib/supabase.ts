@@ -1,0 +1,1 @@
+import {createClient} from "@supabase/supabase-js";const url=import.meta.env.VITE_SUPABASE_URL||"https://qgnbpxkycfoqgxxhbxfo.supabase.co";const key=import.meta.env.VITE_SUPABASE_ANON_KEY||"sb_publishable_6Yjw8C6lVok_b0ODrtD8sA_-0fJIdN4";export const supabase=createClient(url,key);
